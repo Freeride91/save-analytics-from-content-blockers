@@ -18,7 +18,7 @@ console.log(`APP__HOSTS_WHITELIST_REGEX=${hostsWhitelistRegex}${hostsWhitelistRe
 
 export default {
     isLocalEnv: isLocal,
-    httpPort: process.env.PORT || 80,
+    httpPort: process.env.PORT || 8080,
     strippedPath,
     hostsWhitelistRegex: hostsWhitelistRegex,
     proxyDomain: "",          // Domain to proxy calls through. Leave it empty to use the requested domain as a proxy domain
